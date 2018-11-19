@@ -1,12 +1,10 @@
 # An implement of VBPR using tensorflow #
 # 2018.11.19 #
-
 import csv
 import numpy as np
 import random
 import json
 import tensorflow as tf
-
 
 class Processing:
     def __init__(self, K, K2):
@@ -112,8 +110,8 @@ def VBPR(itemFea_matrix, userFea_matrix, user_idx, pos_item_idx, neg_item_idx):
 
 
 model=Processing(K=64, K2=128)
-model.load_training_data('H:/heyFighting/my_code/fashion_shape/codes/preference/TEST/data_training.json')
-model.load_image_feature('H:/heyFighting/my_code/fashion_shape/codes/preference/TEST/image_features.csv')
+model.load_training_data('')  ## feedback_file.json
+model.load_image_feature('')  ## image_feature.csv
 
 itemFea_matrix = tf.placeholder(dtype=tf.float32, shape=[model.nItems, model.imageFeatureDim])
 userFea_matrix = tf.placeholder(dtype=tf.float32, shape=[None, model.nItems])
