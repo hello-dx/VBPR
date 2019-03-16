@@ -17,3 +17,29 @@ Two files are needed to run "VBPR.py"
      This file is to build the user-item relation map: self.R.
 
 You need to complete the code in line 113-114 with the path of the above files.
+
+--------------------------------------------------------------------------------
+
+# The update edition
+
+An end to end VBPR, which is no need to load all image features at begining.
+
+Three files are needed to run "VBPR_update.py"
+
+1. "user_idx.json" & "item_idx.json". Structures are as follows,
+
+   { "user_0": 0, "user_1": 1, ..., "user_n": n-1 }
+   { "item_0": 0, "item_1": 1, ..., "item_m": m-1 }
+   
+2. Your own rating file. The interaction between users and items are needed.
+
+
+Step to run "VBPR_update.py"
+
+1. model = VBPR(K=?, K2=?)
+
+2. model.load_training_data()  # filled with "user_idx.json" & "item_idx.json"
+
+3. build data fed in placeholders, and feed their to the network.
+
+
