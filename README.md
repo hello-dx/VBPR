@@ -3,7 +3,7 @@
 
 A simple version of VBPR.
 
-Two files are needed to run "VBPR.py"
+Two files are needed to run "VBPR.py"  
 
 1. "image_feature.csv" The first column of the csv file is item id, while each line is the corresponding feature of the item. 
 
@@ -17,6 +17,8 @@ Two files are needed to run "VBPR.py"
      This file is to build the user-item relation map: self.R.
 
 You need to complete the code in line 113-114 with the path of the above files.
+
+file link: https://pan.baidu.com/s/1FIsLca0TZW_I4wGmfDwpDw cue：5j3g 
 
 --------------------------------------------------------------------------------
 
