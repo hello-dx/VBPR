@@ -18,7 +18,8 @@ Two files are needed to run "VBPR.py"
 
 You need to complete the code in line 113-114 with the path of the above files.
 
-file link: https://pan.baidu.com/s/1FIsLca0TZW_I4wGmfDwpDw cue：5j3g 
+baidu drive link: https://pan.baidu.com/s/1FIsLca0TZW_I4wGmfDwpDw cue：5j3g 
+google drive link: https://drive.google.com/open?id=1VVQPltHnf3TxlvnZ2WTagORdiqPDqR-a
 
 --------------------------------------------------------------------------------
 
